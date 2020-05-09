@@ -1,13 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import {Box, Filter, AboutContent, UnderLine} from '../css/styledCss';
+import Header from './Header';
 
 const About = props => {
 	return (
-		<Box>
-			<TestInner>
-				<h1>About</h1>
-			</TestInner>
+		<Box className='about'>
+			<Filter className='notFilter'>
+				<Header subTitle='HELLO' title='About Myself'/>
+				<AboutContent>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Integer scelerisque mattis aliquam.
+
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur in felis vitae justo pulvinar varius sed in nisl.
+Curabitur porttitor pretium rhoncus. Nunc vitae lacus a purus mollis laoreet in eget massa. Sed vel tristique lectus. Praesent sit amet sollicitudin urna.
+
+Nunc dolor mi, vehicula non pellentesque id, sagittis non lectus. Quisque finibus dolor dolor, vitae interdum justo pharetra in. Etiam gravida sem vel turpis convallis cursus id nec eros. Pellentesque efficitur tristique lacus.
+
+Morbi a justo eleifend, imperdiet risus a, sodales leo. Maecenas fringilla quam vitae nunc sollicitudin, a pharetra tortor vulputate. Nam lobortis in lorem at scelerisque. Vestibulum ut velit non sem aliquam mollis accumsan ac justo.
+				</AboutContent>
+				<UnderLine />
+			</Filter>
 		</Box>
 	);
 };
@@ -16,16 +29,16 @@ About.propTypes = {
 
 };
 
-const Box = styled.div`
-	position: relative;
-	background-color: rgb(255, 188, 126, 0.2);
-`;
+// const Box = styled.div`
+// 	position: relative;
+// 	background-color: rgb(255, 188, 126, 0.2);
+// `;
 
 
-const TestInner = styled.div`
-	display: flex;
-	align-items: center;
-	justify-content: center;
-`;
+// const TestInner = styled.div`
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: center;
+// `;
 
 export default About;
