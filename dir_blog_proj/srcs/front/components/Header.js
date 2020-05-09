@@ -67,7 +67,7 @@ const UnderBar = styled.hr`
 
 Header.propTypes = {
 	title: PropTypes.string,
-	subTitle: PropTypes. string,
+	subTitle: PropTypes.string,
 };
 
 export default Header;

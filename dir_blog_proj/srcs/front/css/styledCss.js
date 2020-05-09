@@ -108,3 +108,25 @@ export const UnderLine = styled.div`
 		border-left: 1px solid #FCBC98;
 	}
 `;
+
+export const Bubble = styled.div`
+	background: #ffffff;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	border: 3px solid #FCBC84;
+
+	& h1 {
+		color: #818080;
+		text-align: left;
+		margin-left: 20px;
+	}
+
+	& div {
+		color: #5C5353;
+		font-size: 15pt;
+		font-weight: 300;
+		text-align: center;
+	}
+`;

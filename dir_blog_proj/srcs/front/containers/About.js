@@ -1,7 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {Box, Filter, AboutContent, UnderLine} from '../css/styledCss';
-import Header from './Header';
+import Header from '../components/Header';
 
 const About = props => {
 	return (
@@ -24,21 +23,5 @@ Morbi a justo eleifend, imperdiet risus a, sodales leo. Maecenas fringilla quam 
 		</Box>
 	);
 };
-
-About.propTypes = {
-
-};
-
-// const Box = styled.div`
-// 	position: relative;
-// 	background-color: rgb(255, 188, 126, 0.2);
-// `;
-
-
-// const TestInner = styled.div`
-// 	display: flex;
-// 	align-items: center;
-// 	justify-content: center;
-// `;
 
 export default About;

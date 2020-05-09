@@ -1,11 +1,10 @@
 import React, {useEffect} from 'react';
 import PropTypes from 'prop-types';
-import Door from '../components/Door';
-import About from '../components/About';
-import Ability from '../components/Ability';
-import Pr from '../components/Pr';
-import Work from '../components/Work';
-import Footer from '../components/Footer';
+import Door from '../containers/Door';
+import About from '../containers/About';
+import Ability from '../containers/Ability';
+import Work from '../containers/Work';
+import Footer from '../containers/Footer';
 
 
 const Home = props => {
@@ -14,7 +13,6 @@ const Home = props => {
 			<Door />
 			<About />
 			<Ability />
-			{/* <Pr /> */}
 			<Work />
 			<Footer />
 		</>

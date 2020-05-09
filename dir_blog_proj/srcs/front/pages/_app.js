@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import AppLayout from '../components/AppLayout';
+import AppLayout from '../containers/AppLayout';
 import App, {Container} from 'next/app'
 import styled from 'styled-components';
 import Helmet from 'react-helmet';
+
 
 const Home = ({ Component }) => {
 	return (
@@ -40,6 +41,7 @@ const Home = ({ Component }) => {
 const Body = {
 	position: 'relative',
 	minHeight: '100%',
+	width: '100vw',
 	height: '100%',
 	minWidth: '360px',
 	overflowY: 'auto',
