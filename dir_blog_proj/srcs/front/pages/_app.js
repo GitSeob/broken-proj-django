@@ -22,11 +22,19 @@ const Home = ({ Component }) => {
 					rel: 'stylesheet', href: '../styleSheet.css'
 				},{
 					rel: 'stylesheet', href: 'https://unpkg.com/aos@2.3.1/dist/aos.css'
+				},{
+					rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css'
+				},{
+					rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css'
 				}]}
 				script={[{
 					src: '//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js'
 				},{
 					src: 'https://unpkg.com/aos@2.3.1/dist/aos.js'
+				},{
+					src: 'https://unpkg.com/react-id-swiper@2.3.1/lib/react-id-swiper.js'
+				}, {
+					src: 'https://unpkg.com/react-id-swiper@2.3.1/lib/react-id-swiper.min.js'
 				}]}
 			/>
 			<body style={Body}>

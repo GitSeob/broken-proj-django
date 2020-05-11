@@ -1,6 +1,5 @@
 import React from 'react';
 import {DoorContainer, InnerContent, Filter, UnderLine, H1, H2} from '../css/styledCss';
-import styled from 'styled-components';
 
 const Door = () => {
 	return (
@@ -18,90 +17,8 @@ const Door = () => {
 	);
 };
 
-const ScrollDown = styled.div`
-	postion: absolute;
-	width: 100%;
-	height: 150px;
-	bottom: 0;
-	display: flex;
-	flex-direction: column;
-
-	& div {
-		align-items: center;
-		display: flex;
-		flex-direction: column;
-
-		&div.text {
-			font-size: 8pt;
-			color: #FFFFFF;
-		}
-		&div.bar {
-			width: 0px;
-			height: 100px;
-			border-left: 1px solid #FFFFFF;
-		}
-	}
-`;
-
 Door.propTypes = {
 
 };
-
-// const H1 = styled.h1`
-// 	@font-face {
-// 		font-family: 'Days';
-// 		src: url(../fonts/Days.otf) format('opentype');
-// 	}
-// 	margin: 10px 0 0 0;
-// 	font-family: 'Days', sans-serif;
-// `;
-
-// const H2 = styled.h2`
-// 	margin: -10px 0 100px 0;
-// 	color: white;
-// `;
-
-// const DoorContainer = styled.div`
-// 	width: 100%;
-// 	height: 100vh;
-// 	min-height: 640px;
-// `;
-
-// const InnerContent = styled.div`
-// 	position: relative;
-// 	z-index: 1;
-// 	width: inherit;
-// 	height: inherit;
-// 	min-height: inherit;
-// 	max-width: 2560px;
-// 	margin: 0 auto;
-// 	background-size: cover;
-// 	// background-image: url(images/background.jpg);
-// 	background-color: rgb(252, 188, 126);
-// 	background-repeat: no-repeat;
-// `;
-
-// const Filter = styled.div`
-// 	z-index: 1;
-// 	display: flex;
-// 	flex-direction: column;
-// 	position: relative;
-// 	width: 100%;
-// 	height: 100%;
-// 	background-color: #FFF;
-// 	background-color: rgba( 255, 255, 255, 0.3 );
-// 	z-index: 10;
-// 	align-items: center;
-// 	text-align: center;
-// 	// justify-content: center;
-// `;
-
-// const TestInner = styled.div`
-// 	position: relative;
-// 	height: inherit;
-// 	display: flex;
-// 	align-items: center;
-// 	justify-content: center;
-// `;
 
 export default Door;

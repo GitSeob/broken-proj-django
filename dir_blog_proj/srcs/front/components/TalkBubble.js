@@ -62,7 +62,6 @@ const Circle = styled.div`
 TalkBubble.propTypes = {
 	id: PropTypes.number,
 	title: PropTypes.string,
-	list: PropTypes.list,
 };
 
 export default TalkBubble;

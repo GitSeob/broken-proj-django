@@ -4,6 +4,7 @@ import Door from '../containers/Door';
 import About from '../containers/About';
 import Ability from '../containers/Ability';
 import Work from '../containers/Work';
+import Contact from '../containers/Contact';
 import Footer from '../containers/Footer';
 
 
@@ -14,6 +15,7 @@ const Home = props => {
 			<About />
 			<Ability />
 			<Work />
+			<Contact />
 			<Footer />
 		</>
 	);
